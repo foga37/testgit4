@@ -1,0 +1,98 @@
+/* 1 */
+ #q  {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: aqua;
+ }
+
+/* 2 */
+#w {
+    padding: 10px;
+    margin:  5px;
+    border: 2px;
+    background-color: aquamarine;
+}
+/*3*/
+.e {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blue;
+}
+/*4*/
+.r p {
+    color: red;
+    font-size: large;
+}  
+/*5*/
+div {
+    padding: 10px;
+}
+
+/*6*/
+a[href="https://cdn.pixabay.com/photo/2015/05/27/15/49/monkey-786858_1280.png"] {
+    color: green;
+}
+
+/*7*/
+.t :not(p) {
+    color: chartreuse;
+}
+
+/*8*/
+ol li:first-child {
+    color: gold
+}
+ol li:last-child {
+    color: blue;
+}
+
+/*9*/
+div p:only-child{
+    color: red;
+}
+
+/*10*/
+ol li:nth-child(5) {
+    color: blueviolet;
+    font-size: larger;
+}
+
+/*11*/
+ul li:nth-last-of-type(1) {
+    margin: 5px;
+    color: darkorange;
+    font-weight: 300;
+}
+
+/* 12 */
+.hed a {
+    background-color: rgb(196, 185, 30);
+    padding: 10px 10px;
+    margin: 5px 15px;
+    border-radius: 4px;
+    border: 2px rgb(16, 106, 109) solid;
+    color: rgb(16, 106, 109);
+    text-decoration-line: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    }
+    /*13*/
+    h1 {
+        text-align: center;
+        color: blue;
+        
+    }
+    
+/*14*/
+ul li:nth-last-of-type(1) p:hover {
+    background-color: darkorchid;
+    padding: 5px; margin: 2px;
+    border-radius: 6px;
+    font-weight: 700;
+
+}
+
+body {
+    font-size: 20px
+}
